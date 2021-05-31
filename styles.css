@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+
+.wrapper {
+    margin: auto;
+    width: 600px;
+    height: 720px;
+    background-color: white;
+}
+
+div .header {
+
+    height: 9%;
+    display: flex;
+}
+
+div .header .header-icon {
+
+    padding: 10px 10px 10px 13px;
+}
+
+div .header .header-name{
+    width: 87%;
+}
+
+div .header .header-name p:nth-child(1){
+    margin: 0;
+    padding-top: 10px;
+}
+div .header .header-name p:nth-child(2){
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div .header .header-options{
+    padding: 10px;
+}
+
+div .post .post-icons{
+    padding-top: 10px;
+    display: flex;
+}
+
+div .post .post-icons i.fa-heart, i.fa-comment{
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div .post .post-icons i.fa-paper-plane{
+
+    margin-left: 5px;
+    margin-right: 450px;
+}
+
+
+div .footer{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div .footer p:nth-child(2){
+    margin: 0;
+}
